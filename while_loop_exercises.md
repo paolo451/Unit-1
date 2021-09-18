@@ -185,4 +185,45 @@ while enter != 0:
 print(quan+1)
 ```
 
-to be continued
+### 14.- The index of a Fibonacci number
+
+While Loop Solution:
+```.py
+n = int(input("Enter the term you wish to determine index from fibonacci numbers"))
+
+fibo = 0
+n1, n2 = 0, 1
+lista = []
+
+while n1 < n + 1:
+    fibo += 1
+    lista.append(n1)
+    nth = n1 + n2
+    n1 = n2
+    n2 = nth
+
+
+if n in lista:
+    print(fibo - 1)
+else:
+    print("-1")
+```
+
+### 15.- The maximum number of consecutive equal elements
+
+While Loop Solution:
+```.py
+part = 1
+partmas = 1
+a = int(input())
+b = a
+while b != 0:
+    b, a = int(input()), b
+    if b == a:
+        part += 1
+    else:
+        if part > partmas:
+            partmas = part
+        part = 1
+print(partmas)
+```
