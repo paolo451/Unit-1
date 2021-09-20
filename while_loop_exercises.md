@@ -3,6 +3,9 @@
 ### 1.- List of Squares
 
 While Loop Solution:
+
+![](lisquares.png)
+
 ```.py
 n = int(input("Input the n number"))
 number = 1
@@ -17,19 +20,24 @@ while square <= n:
 ### 2.- Least Divisor
 
 While Loop Solution:
+
+![](lesdiv.png)
+
 ```.py
 n = int(input("Enter an integer no less than 2"))
 divisor = 2
 
 while n % divisor != 0:
     divisor = divisor + 1
-else:
-    print(divisor)
+print(divisor)
 ```
 
 ### 3.- The power of 2
 
 While Loop Solution:
+
+![](pow2.png)
+
 ```.py
 n = int(input("Input an n term"))
 result = 2
@@ -44,6 +52,9 @@ print(result/2)
 ### 4.- Morning jog
 
 While Loop Solution:
+
+![](mjog.png)
+
 ```.py
 x_initial = int(input("Original"))
 y_final = int(input("Desired:"))
@@ -59,6 +70,9 @@ print(days_n+1)
 ### 5.- Lenght of a sequence
 
 While Loop Solution:
+
+![](lenseq.png)
+
 ```.py
 n = 1
 nums = 0
@@ -71,6 +85,9 @@ print(nums-1)
 ### 6.- The sum of a sequence
 
 While Loop Solution:
+
+![](lensum.png)
+
 ```.py
 n = 1
 sum = 0
@@ -83,6 +100,9 @@ print(sum)
 ### 7.- Average of a sequence
 
 While Loop Solution:
+
+![](avgseq.png)
+
 ```.py
 n = 1
 sumt = 0
@@ -97,6 +117,9 @@ print(sumt/(nums-1))
 ### 8.- Maximum of a sequence
 
 While Loop Solution:
+
+![](maxseq.png)
+
 ```.py
 largest = 0
 enter = 1
@@ -110,6 +133,9 @@ print(largest)
 ### 9.- Index of the maximum of a sequence
 
 While Loop Solution:
+
+![](indxseq.png)
+
 ```.py
 largest = 0
 enter = 1
@@ -124,6 +150,9 @@ print( int(numbrs.index(max(numbrs)) ) + 1)
 ### 10.- The number of even elements of the sequence
 
 While Loop Solution:
+
+![](evenelem.png)
+
 ```.py
 even = 0
 enter = 1
@@ -136,6 +165,8 @@ print(even-1)
 ### 11.- The number of elements that are greater than the previous one
 
 While Loop Solution:
+
+![](elemens.png)
 
 ```.py
 greater = 0
@@ -154,6 +185,9 @@ print(greater-1)
 ### 12.- The second maximum
 
 While Loop Solution:
+
+![](secmax.png)
+
 ```.py
 enter = 1
 numbrs = []
@@ -170,6 +204,9 @@ print(numbrs[lenn - 2])
 ### 13.- The number of elements equal to the maximum
 
 While Loop Solution:
+
+![](elemeqmx.png)
+
 ```.py
 largest = 0
 enter = 1
@@ -186,6 +223,8 @@ print(quan+1)
 ```
 
 ### 14.- The index of a Fibonacci number
+
+![](fiboindx.png)
 
 While Loop Solution:
 ```.py
@@ -212,11 +251,15 @@ else:
 ### 15.- The maximum number of consecutive equal elements
 
 While Loop Solution:
+
+![](maxcons.png)
+
 ```.py
 part = 1
 partmas = 1
 a = int(input())
 b = a
+
 while b != 0:
     b, a = int(input()), b
     if b == a:
@@ -225,5 +268,6 @@ while b != 0:
         if part > partmas:
             partmas = part
         part = 1
+
 print(partmas)
 ```
