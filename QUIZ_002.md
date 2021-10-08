@@ -2,7 +2,8 @@
 
 ```.py
 # This program helps find the difference between the largest and smallest number from
-# a series of 3 inputed numbers
+# a series of 3 inputted numbers
+
 def LargestDistance(a, b, c):
     listu = []
     listu.append(a)
