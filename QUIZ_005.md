@@ -1,6 +1,7 @@
 ## QUIZ 005:
 
 ```.py
+# This function shows the multiplication table from 0 to 9 in base of the inputted number
 
 def tableM(n):
     for i in range(0,10):
